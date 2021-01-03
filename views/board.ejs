@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="main-section">
+          Tic Tac Toe
+
+        </div>
+    </section>
+    <div class="main-wrapper">
+        <div id="message">
+
+        </div>
+        <div class="table-container">
+            
+        <table>
+            <tr class="table-row top">
+                <td class="table-col top-left" data-row="0" data-col="0"></td>
+                <td class="table-col top-middle" data-row="0" data-col="1"></td>
+                <td class="table-col top-right" data-row="0" data-col="2"></td>
+            </tr>
+            <tr class="table-row middle">
+                <td class="table-col middle-left" data-row="1" data-col="0"></td>
+                <td class="table-col middle-middle" data-row="1" data-col="1"></td>
+                <td class="table-col middle-right" data-row="1" data-col="2"></td>
+            </tr>
+            <tr class="table-row bottom">
+                <td class="table-col bottom-left" data-row="2" data-col="0"></td>
+                <td class="table-col bottom-middle" data-row="2" data-col="1"></td>
+                <td class="table-col bottom-right" data-row="2" data-col="2"></td>
+            </tr>
+        </table>
+        </div>
+
+        <div class="left-sidebar">
+
+        </div>
+    </div>
+
+
+    <div id="notice-board" style="display: none;">
+        <div id="notice-board-card">
+            <div id="card-title">
+                🎉 Congratulations 🎉
+            </div>
+            <div id="card-message">
+                
+            </div>
+            <div style="text-align: center;">
+                <input type="button" value="Restart" id="restart-btn">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

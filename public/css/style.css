@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background:#99b898 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-section{
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #000000;
+    color: #f4f4f4;
+    height: 80px;
+    font-size: 40px;
+    vertical-align: middle;
+
+}
+.main-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center ;
+    align-items: center;
+   
+}
+#message{
+    width: 20vw;
+    max-height: 200px;
+    flex-basis: 200px;
+    background:#f0a500 ;
+    margin:30px;
+    padding:30px;
+    min-width: 300px;
+    text-align: center;
+    font-size: 25px;
+    justify-self: flex-start;
+    max-width: 320px;
+}
+.left-sidebar{
+    width: 20vw;
+    height: 200px;
+    max-width: 320px; 
+    margin: 20px;
+    justify-self: flex-end;
+}
+.table-container{
+    width: 60vw;
+}
+table{
+    justify-content: center;
+    background-color:#99b898;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    align-self: center;
+    border-radius: 50px;
+    margin: 10px auto;
+    /* transform: translate(-50%,-50%); */
+}
+.table-row{
+    width: 600px;
+    height: 200px;
+    border: 2px black solid;
+    border-radius: 50px;
+}
+.table-col{
+    background-color: #ffcb74;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 60px;
+}
+
+#notice-board{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    background-color: #0a160965;
+}
+
+#notice-board-card{
+    position: absolute;
+    background:#000000;
+    border-radius: 25px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:500px;
+box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.233);;
+}
+#card-title{
+    background-color: #f0a500;
+    color:#f4f4f4;
+    padding:20px;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1px;
+    font-size: 26px;
+    border-top-left-radius:25px ;
+    border-top-right-radius:25px ;
+}
+
+#card-message{
+    color:#f4f4f4;
+    padding:20px;
+    text-align: center;
+    white-space: nowrap;
+     font-size: 26px;
+}
+
+#restart-btn{
+    width: 120px;
+    text-align: center;
+    margin: 10px auto;
+    outline: none   ;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #f4f4f4;
+    border: 4px solid #f0a500;
+    cursor: pointer;
+}
